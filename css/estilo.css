@@ -1,0 +1,164 @@
+*{
+    font-family: netflixfino;
+    color:gray;
+}
+body{
+    margin:0;
+    overflow-x:hidden;
+}
+@font-face{
+    font-family: netflixnegrito;
+    src:url("../fonte/NetflixSans-Bold.woff2");
+}
+@font-face{
+    font-family: netflix;
+    src:url("../fonte/NetflixSans-Regular.woff2");
+}
+@font-face{
+    font-family: netflixfino;
+    src:url("../fonte/NetflixSans-Light.woff2");
+}
+@font-face{
+    font-family: netflixmedio;
+    src:url("../fonte/NetflixSans-Medium.woff2");
+}
+#logo-container{
+    width:100%;
+    height:60px;
+    padding:60px; /*espaço interno da div em quantidade*/
+}
+#logo{
+    height:100%; /*vai usar 100% do height da div, e não da página*/
+}
+body{
+    width:100vw; /*vai usar toda tela horizontalmente*/
+    /*height:100vh; vai usar toda tela verticalmente*/
+    background-image: url("../img/fundo2.jpg");
+    background-size: 110%;
+    background-repeat:no-repeat
+}
+.login-content{
+    box-sizing:border-box;
+    width:450px;
+    height:600px;
+    background-color:rgba(0, 0, 0, .85);
+    position:relative;
+    left:calc(50% - 225px);
+    /*opacity: 85%;*/
+    color:white;
+    padding:40px;
+    justify-content:center;
+    align-items:center;
+    border-radius:8px;
+}
+#rodape{
+    background-color:rgba(0, 0, 0, .85);
+    width:100%;
+    height:250px;
+    margin-top: 82px;
+    box-sizing:border-box;
+    padding: 25px 500px;
+    position:relative;
+}
+.listas{
+    display:flex;
+}
+.listas ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+.listas ul li{
+    margin-right:100px;
+    margin-top:20px;
+    font-size:13px;
+}
+.listas ul li a{
+    text-decoration:none;
+}
+h2{
+    font-size:16px;
+    font-weight:lighter;
+}
+h1{
+    font-family:netflix;
+    font-size:32px;
+    color:white;
+}
+.logar{
+    border:none;
+    border-radius:5px;
+    background-color:rgb(63, 63, 63);
+    width:100%;
+    height:45px;
+}
+.login{
+    margin-top:20px;
+}
+.btnlogin{
+    background-color:red;
+    color:white;
+    width: 100%;
+    margin-top:40px;
+    height:45px;
+    border-radius:5px;
+}
+.texto-login{
+    margin-top:5px;
+    display:flex;
+    font-family:netflixfino;
+    color:gray;
+    font-size:15px;
+}
+.texto-login p{
+    margin-left:5px;
+}
+.logar{
+    color:white;
+    outline:none;
+    box-sizing:border-box;
+    padding-left:10px;
+}
+.texto-login a{
+    text-decoration:none;
+    color:gray;
+    margin-left:95px;
+    margin-top:14px;
+    cursor:pointer;
+}
+.assinar h1{
+    font-size:15px;
+    font-family:netflixfino;
+    color:gray;
+    font-weight:100;
+}
+.assinar h1 a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+.assinar p{
+    font-size:13px
+}
+#check{
+    margin-left:0
+}
+#saibamais{
+    color:blue;
+    text-decoration:none;
+}
+
+
+
+
+
+/*input::placeholder{
+    para mexer em coisas do place holder (o que tá escrito no input) 
+}
+.login{
+    background-color:black;
+    height:650px;
+    width:500px;
+    opacity:80%;
+    margin-left:calc(50% -250px);
+}*/
