@@ -1,2 +1,3 @@
 # ProjetoNetflix
- Tentando recriar o site da netflix para testes e treino. Treino tanto para front quanto para back
+ Treino de FrontEnd HTML e CSS
+
